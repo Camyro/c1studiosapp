@@ -156,10 +156,3 @@ a:hover, .hover span:hover, .hover:hover{
     }
 
 }
-
-@media screen and (max-height: 1000px) {
-    body {
-        height: 100%;
-    }
-
-}
