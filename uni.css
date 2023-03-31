@@ -115,39 +115,6 @@ body .apps ul{
 
 
 
-.rodape{
-    display: flex;
-    margin: 0;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px;
-}
-
-span{
-    padding: 5px;
-}
-
-.rodape a {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 12px;
-}
-
-a:hover, .hover span:hover, .hover:hover{
-    color: rgb(235, 0, 0);
-}
-
-.rodape p{
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-
-
 @media screen and (max-width: 750px) {
     body nav ul li .imag {
         width: 0;
