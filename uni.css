@@ -1,0 +1,156 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background: black;
+    margin: 0;
+    padding: 0px 30px;
+}
+
+nav ul, nav ul li a, .sair, .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav ul .sair a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 14px;
+}
+
+nav ul .titulo p{
+    color: rgb(235, 0, 0);
+    font-size: 25px;
+}
+
+.android {
+    color: white;
+    display: flex;
+}
+
+.android p{
+    padding: 4px;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .titulo p:hover, nav .sair a:hover, .apps a:hover{
+    color: rgb(235, 0, 0);
+}
+
+
+
+body .apps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body .apps img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+
+}
+
+body .apps .content ul{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+}
+
+body .apps ul{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bt{
+    border: 2px solid;
+    border-color: rgb(235, 0, 0);
+    border-radius: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(235, 0, 0);
+    color: black;
+}
+
+.bt a{
+    color: black;
+}
+
+.bt a:hover, .bt:hover{
+    color: white;
+    border-color: white;
+}
+
+
+
+.rodape{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+span{
+    padding: 5px;
+}
+
+.rodape a {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+a:hover, .hover span:hover, .hover:hover{
+    color: rgb(235, 0, 0);
+}
+
+.rodape p{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    body nav ul li .imag {
+        width: 0;
+        height: 0;
+        color: #000;
+    }
+
+}
