@@ -9,7 +9,7 @@ body{
     padding: 0px 30px;
 }
 
-nav ul, nav ul li a, .sair, .titulo{
+nav ul, nav ul li a, .sair, .titulo, .android{
     display: flex;
     align-items: center;
     justify-content: space-between;
