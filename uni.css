@@ -7,6 +7,8 @@ body{
     background: black;
     margin: 0;
     padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 nav ul, nav ul li a, .sair, .titulo, .android{
