@@ -9,6 +9,12 @@ body{
     padding: 0px 30px;
     display: flex;
     flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
 }
 
 nav ul, nav ul li a, .sair, .titulo, .android{
@@ -64,10 +70,9 @@ body .apps img{
     width: 150px;
     height: 150px;
     border-radius: 10%;
-
 }
 
-body .apps .content ul{
+body .apps .contente ul{
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
@@ -111,6 +116,96 @@ body .apps ul{
 .bt a:hover, .bt:hover{
     color: white;
     border-color: white;
+}
+
+
+
+.tela{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    width: 275px;
+    height: 575px;
+    overflow: hidden;
+    padding: 0px 0px;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 15px;
+    cursor: pointer;
+    display: flex;
+    height: 12px;
+    position: absolute;
+    width: 50px;
+    z-index: 10;
+    margin: 10px;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.nav{
+    display: flex;
+    padding: 5px 0px;
+}
+
+.bar{
+    width: 50px;
+    height: 12px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 2px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background-color: white;
 }
 
 
