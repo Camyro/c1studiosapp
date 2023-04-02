@@ -166,19 +166,7 @@ body .apps ul{
     margin: 10px;
 }
 
-.slider li:nth-child(1) label {
-    left: 10px;
-}
-
-.slider li:nth-child(2) label {
-    left: 40px;
-}
-
-.slider li:nth-child(3) label {
-    left: 70px;
-}
-
-.slider img {
+.slider img{
     opacity: 0;
     visibility: hidden;
 }
@@ -212,9 +200,9 @@ body .apps ul{
 
 @media screen and (max-width: 750px) {
     body nav ul li .imag {
-        width: 0;
-        height: 0;
-        color: #000;
+        width: 0%;
+        height: 0%;
+        color: #00000000;
     }
 
 }
