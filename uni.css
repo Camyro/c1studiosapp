@@ -4,7 +4,6 @@ html{
 }
 
 body{
-    background: black;
     margin: 0;
     padding: 0px 30px;
     display: flex;
@@ -19,8 +18,9 @@ nav{
 
 nav ul, nav ul li a, .sair, .titulo, .android{
     display: flex;
+    list-style-type: none;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0;
     text-decoration: none;
     list-style-type: none;
