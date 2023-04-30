@@ -238,3 +238,11 @@ body .apps ul{
     }
 
 }
+
+@media screen and (max-width: 155px) {
+    iframe{
+        width: 140px;
+        height: 78px;
+    }
+
+}
