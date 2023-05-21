@@ -28,20 +28,37 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid rgba(71, 14, 14, 1);
 }
 
-nav ul{
+.nav{
+    display: flex;
+    position:fixed;
+    width: 100%;
+    height: 10%;
     display: flex;
     list-style-type: none;
     justify-content: space-around;
     align-items: center;
-    padding: 0;
+    padding: 0px 15px;
+    background-image: linear-gradient(#470e0e, #88888800);
 }
 
-nav ul li img{
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px 25px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.nav li{
+    padding: 0px 10px;
+}
+
+.nav img{
     width: 90px;
     height: 23px;
 }
 
-nav ul li p{
+.nav ul li p{
     color: rgb(235, 0, 0);
 }
 
@@ -57,6 +74,10 @@ a, span{
     display: flex;
     align-items: center;
     padding: 10px;
+}
+
+.i{
+    padding: 25px 10px;
 }
 
 .apps a img{
@@ -80,6 +101,10 @@ a, span{
     justify-content: space-around;
     align-items: center;
     padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(#88888800, #470e0e);
 }
 
 span{
@@ -95,17 +120,15 @@ span{
     font-size: 12px;
 }
 
-a:hover, p:hover, h2:hover, span:hover{
-    color: rgb(235, 0, 0);
-}
-
 .rodape p{
     padding: 0;
     margin: 0;
     display: flex;
 }
 
-
+a:hover, p:hover, h2:hover, span:hover{
+    color: rgb(235, 0, 0);
+}
 
 @media screen and (max-width: 750px) {
     .apps{
